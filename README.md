@@ -1,28 +1,45 @@
-# 💰 controle-financeiro-app
+# 💰 Controle Financeiro App
 
-Aplicativo de controle financeiro pessoal feito em Flutter, com autenticação, registro de despesas e visualização de gráficos mensais.
+## 🎯 Objetivo do Projeto
+Este projeto é um aplicativo de controle financeiro pessoal desenvolvido para me ajudar a gerenciar minhas despesas e receitas de forma simples e intuitiva. O objetivo principal é criar uma ferramenta prática que me permita visualizar meus gastos e organizar minhas finanças de maneira mais eficiente.
 
-## 🚀 Funcionalidades
+## 💻 Tecnologias Utilizadas
+- **Framework:** Flutter
+- **Linguagem:** Dart
+- **Estado de Gerenciamento:** [Exemplo: Provider, Bloc, Riverpod]
+- **Banco de Dados:** [Exemplo: Hive, SQLite]
+- **Outras Bibliotecas:** [Exemplo: intl para formatação de moedas]
 
-- Cadastro e login de usuário (Firebase Auth)
-- Registro de despesas por categoria
-- Gráfico mensal de gastos
-- Armazenamento em nuvem com Firebase Firestore
-- Interface moderna e responsiva
+## 🧠 O que eu aprendi
+Ao desenvolver este aplicativo, pude aplicar e consolidar diversos conceitos importantes de programação e desenvolvimento mobile. Entre eles, destaco:
 
-## 🧪 Tecnologias usadas
+1.  **Desenvolvimento com Flutter:** Foi minha primeira experiência completa com o framework Flutter. Aprendi a construir interfaces reativas, a lidar com a hierarquia de widgets e a usar o `StatefulWidget` e o `StatelessWidget` de forma eficiente.
 
-- Flutter
-- Dart
-- Firebase Auth & Firestore
-- Provider (gerenciamento de estado)
-- Git + GitHub
+2.  **Gerenciamento de Estado:** Para manter o controle dos dados (despesas e receitas) de forma organizada, implementei o padrão [mencione o padrão, por exemplo: Provider]. Isso me ensinou a gerenciar o fluxo de informações na aplicação e a evitar a complexidade do `setState` em larga escala.
 
-## 📦 Como rodar o projeto localmente
+3.  **Persistência de Dados:** Aprendi a salvar e carregar dados localmente no dispositivo usando [mencione a tecnologia, por exemplo: Hive]. Isso foi crucial para garantir que as informações do usuário fossem mantidas mesmo após o aplicativo ser fechado.
 
-```bash
-git clone https://github.com/Guilhermeyoshio/controle-financeiro-app.git
-cd controle-financeiro-app
-flutter pub get
-flutter run
-Atualiza README com descrição completa do projeto
+4.  **Boas Práticas de Código:** O projeto me desafiou a estruturar o código de forma modular e limpa, dividindo a aplicação em pastas (telas, widgets, modelos, etc.), o que facilita a manutenção e o desenvolvimento futuro.
+
+## 🚀 Como Rodar o Projeto
+Se você deseja executar o projeto em sua máquina, siga os passos abaixo:
+
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/Guilhermeyoshio/controle-financeiro-app.git](https://github.com/Guilhermeyoshio/controle-financeiro-app.git)
+    ```
+
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd controle-financeiro-app
+    ```
+
+3.  Instale as dependências:
+    ```bash
+    flutter pub get
+    ```
+
+4.  Execute o aplicativo:
+    ```bash
+    flutter run
+    ```
