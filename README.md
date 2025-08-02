@@ -6,18 +6,17 @@ Este projeto é um aplicativo de controle financeiro pessoal desenvolvido para m
 ## 💻 Tecnologias Utilizadas
 - **Framework:** Flutter
 - **Linguagem:** Dart
-- **Estado de Gerenciamento:** [Exemplo: Provider, Bloc, Riverpod]
-- **Banco de Dados:** [Exemplo: Hive, SQLite]
-- **Outras Bibliotecas:** [Exemplo: intl para formatação de moedas]
+- **Estado de Gerenciamento:** Provider
+- **Banco de Dados:** Hive
 
 ## 🧠 O que eu aprendi
 Ao desenvolver este aplicativo, pude aplicar e consolidar diversos conceitos importantes de programação e desenvolvimento mobile. Entre eles, destaco:
 
 1.  **Desenvolvimento com Flutter:** Foi minha primeira experiência completa com o framework Flutter. Aprendi a construir interfaces reativas, a lidar com a hierarquia de widgets e a usar o `StatefulWidget` e o `StatelessWidget` de forma eficiente.
 
-2.  **Gerenciamento de Estado:** Para manter o controle dos dados (despesas e receitas) de forma organizada, implementei o padrão [mencione o padrão, por exemplo: Provider]. Isso me ensinou a gerenciar o fluxo de informações na aplicação e a evitar a complexidade do `setState` em larga escala.
+2.  **Gerenciamento de Estado:** Para manter o controle dos dados (despesas e receitas) de forma organizada, implementei o padrão **Provider**. Isso me ensinou a gerenciar o fluxo de informações na aplicação e a evitar a complexidade do `setState` em larga escala.
 
-3.  **Persistência de Dados:** Aprendi a salvar e carregar dados localmente no dispositivo usando [mencione a tecnologia, por exemplo: Hive]. Isso foi crucial para garantir que as informações do usuário fossem mantidas mesmo após o aplicativo ser fechado.
+3.  **Persistência de Dados:** Aprendi a salvar e carregar dados localmente no dispositivo usando o **Hive**. Isso foi crucial para garantir que as informações do usuário fossem mantidas mesmo após o aplicativo ser fechado.
 
 4.  **Boas Práticas de Código:** O projeto me desafiou a estruturar o código de forma modular e limpa, dividindo a aplicação em pastas (telas, widgets, modelos, etc.), o que facilita a manutenção e o desenvolvimento futuro.
 
@@ -26,7 +25,7 @@ Se você deseja executar o projeto em sua máquina, siga os passos abaixo:
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/Guilhermeyoshio/controle-financeiro-app.git](https://github.com/Guilhermeyoshio/controle-financeiro-app.git)
+git clone https://github.com/seuusuario/controle-financeiro-app.git
     ```
 
 2.  Navegue até o diretório do projeto:
