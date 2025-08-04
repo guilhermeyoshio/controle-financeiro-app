@@ -25,7 +25,7 @@ Se você deseja executar o projeto em sua máquina, siga os passos abaixo:
 
 1.  Clone este repositório:
     ```bash
-https://github.com/usuario-exemplo/controle-financeiro-app
+    https://github.com/usuario-exemplo/controle-financeiro-app
     ```
 
 2.  Navegue até o diretório do projeto:
